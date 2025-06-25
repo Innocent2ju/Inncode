@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.darkmode{
+    background-color: #10172a;
+    color: antiquewhite;
+    h3{
+        color: antiquewhite;
+    }
+    #text{
+        background-color: white;
+    }
+    #con{
+        color: aliceblue;
+    }
+}
+#trobule{
+    margin-left: auto;
+    margin-right: auto;
+}
+#facebook-logo{
+    height: 60px;
+}
+#fly {opacity: 0;
+      transform: translate(-100%);
+      animation: flyIn 1s ease-out forwards;
+    }
+
+    @keyframes flyIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    #flyy {opacity: 0;
+      transform: translate(100%);
+      animation: flyIn 1s ease-out forwards;
+    }

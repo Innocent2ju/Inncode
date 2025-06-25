@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 70%);
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 90%);
+    font-weight: bold;
+    font-size: large;
+}
+button:hover{
+    background: hsl(0, 0%, 40%);
+}
+.btncalc{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    /*1 fr means that each column should take up an even amount of space*/
+}
+.calculator{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: hsl(0, 0%, 10%);
+    width:fit-content;
+    box-shadow: 2px 1px 10px;
+}
+#displayview{
+    height: 40px;
+    border: none;
+}
+.speckeys{
+    background-color: hsl(39, 100%, 50%);
+    color: black;
+}
+.speckeys:hover{
+    background-color: hsl(39, 100%, 40%);
+}
