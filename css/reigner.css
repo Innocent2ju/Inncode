@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#dark{
+    overflow:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+#dark ::-webkit-scrollbar{
+    display: none;
+}
+.TT{
+    font-weight: bold;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider img{
+    display: none;
+}
+img .displayslide{
+    display: block;
+}

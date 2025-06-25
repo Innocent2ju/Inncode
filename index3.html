@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-full max-w-md mx-auto">
+  <details class="mb-4 border rounded">
+    <summary class="cursor-pointer px-4 py-2 bg-gray-100 text-gray-800">
+      Accordion Item 1
+    </summary>
+    <div class="px-4 py-2 bg-white text-gray-700">
+      This is the content for item 1.
+    </div>
+  </details>
+
+  <details class="mb-4 border rounded">
+    <summary class="cursor-pointer px-4 py-2 bg-gray-100 text-gray-800">
+      Accordion Item 2
+    </summary>
+    <div class="px-4 py-2 bg-white text-gray-700">
+      This is the content for item 2.
+    </div>
+  </details>
+</div>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-youtube"></i>
+<i class="fa-brands fa-square-whatsapp"></i>
+<script src="https://kit.fontawesome.com/871cf56fe0.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<div class="w-full max-w-md mx-auto">
+  <div class="border-b">
+    <button
+      class="w-full text-left px-4 py-2 bg-gray-100 font-medium"
+      onclick="toggleAccordion('item1')"
+    >
+      Accordion Item 1
+    </button>
+    <div id="item1" class="hidden px-4 py-2 bg-white text-gray-700">
+      This is the content for item 1.
+    </div>
+  </div>
+
+  <div class="border-b">
+    <button
+      class="w-full text-left px-4 py-2 bg-gray-100 font-medium"
+      onclick="toggleAccordion('item2')"
+    >
+      Accordion Item 2
+    </button>
+    <div id="item2" class="hidden px-4 py-2 bg-white text-gray-700">
+      This is the content for item 2.
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleAccordion(id) {
+    const el = document.getElementById(id);
+    el.classList.toggle('hidden');
+  }
+</script>
+
+</body>
+</html>
+
+            <span class="flex justify-end">
+                <img src="media/f.jpg" alt="" class="rounded-full w-40 md:w-60 ">
+            </span>
+            <span class="flex justify-start text-center w-ful">
+                <div>
+                    <h3>About Me</h3>
+                <h4>Software Developer</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </span>

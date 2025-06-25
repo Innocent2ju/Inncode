@@ -1,0 +1,96 @@
+body{
+   margin: 0px;
+}
+section{
+  margin: 20px;
+}
+header{
+  text-align: center;
+  color: white;
+}
+nav{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+nav ul{
+list-style: none;
+display: flex;
+}
+nav ul a{
+  text-decoration: none;
+}
+nav ul li{
+  padding: 20px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+@media screen and (max-width:700px){
+  .yemi{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+  nav{
+    width: 70px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    overflow: hidden;
+    border: none;
+    float: left;
+  }
+  nav:hover{
+    transition: 1s ease;
+    width: 200px;
+  }
+  .text{
+    text-align: center;
+    display: block;
+    margin-left:30px;
+    position: relative;
+    color: aliceblue;
+  }
+  .icons{
+    display: flex;
+    color: aliceblue;
+  }
+  nav ul{
+      display: block;
+  }
+  nav ul a{
+    text-decoration: none;
+    }
+  nav ul li{
+      margin: 0px;
+      color: black;   
+    }
+    .motherbox, .ad1, .ad2{
+    display: none;
+  }
+}
+
+.car-container video{
+  width: 100%;
+  border: none;
+}
+.motherbox{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.ad1{
+  width:30%
+}
+.car-container{
+  width: 30%;
+  display: block;
+}
+.ad2{
+  width: 30%;
+}
+
