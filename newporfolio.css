@@ -1,0 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#dark{
+    overflow:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+#dark ::-webkit-scrollbar{
+    display: none;
+}
+.TT{
+    font-weight: bold;
+}
